@@ -13,10 +13,14 @@ function build() {
 		cargo build --features tonic-build
 	  ;;
 	massa-rust-sc-examples) 
-		cargo make wasm
+#		cargo make wasm
+		echo "disabled"
 		;;
 	# ;& means fall through to the next case (bash 4 specific)
-	massa-rust-sc-sdk) ;& 
+#	massa-rust-sc-sdk) ;& 		
+	massa-rust-sc-sdk)
+		echo "disabled"
+		;;
 	massa-sc-runtime)
 		cargo build
 		;;
