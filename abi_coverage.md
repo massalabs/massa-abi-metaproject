@@ -39,8 +39,8 @@
 | as__get_call_coins          |                                | GetCallCoinsResult                  |                     |
 | as__get_time                |                                | GetNativeTimeResult                 |                     |
 | as__send_message            |                                |                                     |                     |
-| as__get_current_period      |                                | GetCurrentPeriodResult              |                     |
-| as__get_current_thread      |                                | GetCurrentThreadResult              |                     |
+| as__get_current_period      | abi_get_current_period         | GetCurrentPeriodResult              |                     |
+| as__get_current_thread      | abi_get_current_thread         | GetCurrentThreadResult              |                     |
 | as__set_bytecode            |                                | SetBytecodeResult                   |                     |
 | as__set_bytecode_for        |                                | SetBytecodeForResult                |                     |
 | as__get_op_keys             |                                | GetOpKeysResult                     |                     |

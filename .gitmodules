@@ -5,7 +5,7 @@
 [submodule "massa-proto-as"]
 	path = massa-proto-as
 	url = https://github.com/massalabs/massa-proto-as.git
-	branch = feature/Improve_ABI_types_in_wasmv1
+	branch = feature/Improve_ABI_types_in_wasmv1_leo
 [submodule "massa-rust-sc-sdk"]
 	path = massa-rust-sc-sdk
 	url = https://github.com/massalabs/massa-rust-sc-sdk.git
@@ -21,4 +21,4 @@
 [submodule "massa-sc-runtime"]
 	path = massa-sc-runtime
 	url = https://github.com/massalabs/massa-sc-runtime.git
-	branch = feature/Improve_ABI_types_in_wasmv1
+	branch = feature/Improve_ABI_types_in_wasmv1_leo
