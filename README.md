@@ -30,6 +30,8 @@ curl https://get.wasmer.io -sSfL | sh
 cd as_abi_protobuf && npm install
 
 cargo install fd-find
+cargo install --force cargo-make
+rustup target add wasm32-unknown-unknown
 
 wasmv1_transform (secret project held by @jfm)
 ```
@@ -41,6 +43,8 @@ iwr https://win.wasmer.io -useb | iex
 cd as_abi_protobuf && npm install
 
 cargo install fd-find
+cargo install --force cargo-make
+rustup target add wasm32-unknown-unknown
 
 wasmv1_transform (secret project held by @jfm)
 ```
