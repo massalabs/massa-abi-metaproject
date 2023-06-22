@@ -30,7 +30,8 @@ curl https://get.wasmer.io -sSfL | sh
 cd as_abi_protobuf && npm install
 
 cargo install fd-find
-cargo install --force cargo-make
+# Commented out for now, see https://github.com/massalabs/massa-abi-metaproject/pull/1#discussion_r1238564154
+#cargo install --force cargo-make
 rustup target add wasm32-unknown-unknown
 
 wasmv1_transform (secret project held by @jfm)
@@ -43,7 +44,8 @@ iwr https://win.wasmer.io -useb | iex
 cd as_abi_protobuf && npm install
 
 cargo install fd-find
-cargo install --force cargo-make
+# Commented out for now, see https://github.com/massalabs/massa-abi-metaproject/pull/1#discussion_r1238564154
+#cargo install --force cargo-make
 rustup target add wasm32-unknown-unknown
 
 wasmv1_transform (secret project held by @jfm)
