@@ -1,5 +1,6 @@
 #$MODULES="massa-proto-rs","massa-proto-as","massa-rust-sc-sdk","massa-rust-sc-examples","as_abi_protobuf","massa-sc-runtime"
-$MODULES="massa-proto-rs","massa-proto-as","as_abi_protobuf","massa-sc-runtime"
+#$MODULES="massa-proto-rs","massa-proto-as","as_abi_protobuf","massa-sc-runtime"
+$MODULES="massa-proto-rs","as_abi_protobuf","massa-sc-runtime"
 
 function build {
     switch ($args[0]) {
