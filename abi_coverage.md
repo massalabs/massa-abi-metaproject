@@ -3,34 +3,34 @@
 | abort                       | abi_abort                      |                                     | working need update |
 | seed                        |                                | SeedResult                          |                     |
 | Date.now                    |                                | DateNowResult                       |                     |
-| console.log                 |                                | ConsolePutResult                    |                     |
-| console.info                |                                | ConsolePutResult                    |                     |
-| console.warn                |                                | ConsolePutResult                    |                     |
-| console.error               |                                | ConsolePutResult                    |                     |
-| console.debug               |                                | ConsolePutResult                    |                     |
-| trace                       |                                | TraceResult                         |                     |
+| console.log                 | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | ConsolePutResult                    |                     |
+| console.info                | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | ConsolePutResult                    |                     |
+| console.warn                | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | ConsolePutResult                    |                     |
+| console.error               | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | ConsolePutResult                    |                     |
+| console.debug               | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | ConsolePutResult                    |                     |
+| trace                       | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | TraceResult                         |                     |
 | process.exit                |                                | ProcessExitResult                   |                     |
-| as__print                   |                                | PrintResult                         |                     |
+| as__print                   | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | PrintResult                         |                     |
 | as__call                    | abi_call                       | CallResponse                        |                     |
 | as__get_remaining_gas       |                                | GetRemainingGasResult               |                     |
 | as__create_sc               | abi_create_sc                  | CreateSCResult                      |                     |
-| as__set_data                |                                | SetDataResult                       |                     |
-| as__set_data_for            |                                | SetDataForResult                    |                     |
-| as__get_data                |                                | GetDataResult                       |                     |
-| as__get_data_for            |                                | GetDataForResult                    |                     |
-| as__delete_data             |                                | DeleteDataResult                    |                     |
-| as__delete_data_for         |                                | DeleteDataForResult                 |                     |
-| as__append_data             |                                | AppendDataResult                    |                     |
-| as__append_data_for         |                                | AppendDataForResult                 |                     |
-| as__has_data                |                                | HasDataResult                       |                     |
-| as__has_data_for            |                                | HasDataForResult                    |                     |
+| as__set_data                | abi_set_data                   | SetDataResult                       |                     |
+| as__set_data_for            | abi_set_data                   | SetDataResult                       |                     |
+| as__get_data                | abi_get_data                   | GetDataResult                       |                     |
+| as__get_data_for            | abi_get_data                   | GetDataResult                       |                     |
+| as__delete_data             | abi_delete_data                | DeleteDataResult                    |                     |
+| as__delete_data_for         | abi_delete_data                | DeleteDataResult                    |                     |
+| as__append_data             | abi_append_data                | AppendDataResult                    |                     |
+| as__append_data_for         | abi_append_data                | AppendDataResult                    |                     |
+| as__has_data                | abi_has_data                   | HasDataResult                       |                     |
+| as__has_data_for            | abi_has_data                   | HasDataResult                       |                     |
 | as__get_owned_addresses     |                                | GetOwnedAddressesResult             |                     |
 | as__get_call_stack          |                                | GetCallStackResult                  |                     |
 | as__generate_event          | abi_generate_event             | GenerateEventResult                 | working need update |
 | as__transfer_coins          | abi_transfer_coins             | TransferCoinsResult                 | working need update |
-| as__transfer_coins_for      |                                | TransferCoinsForResult              |                     |
-| as__get_balance             |                                | GetBalanceResult                    |                     |
-| as__get_balance_for         |                                | GetBalanceForResult                 |                     |
+| as__transfer_coins_for      | abi_transfer_coins             | TransferCoinsResult                 | working need update |
+| as__get_balance             | abi_get_balance                | GetBalanceResult                    |                     |
+| as__get_balance_for         | abi_get_balance                | GetBalanceResult                    |                     |
 | as__hash                    | abi_hash                       | NativeHashResult                    |                     |
 | as__signature_verify        |                                | VerifyNativeSigResult               |                     |
 | as__address_from_public_key |                                | NativeAddressFromNativePubKeyResult |                     |
