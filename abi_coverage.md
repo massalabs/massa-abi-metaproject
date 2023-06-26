@@ -31,7 +31,7 @@
 | as__transfer_coins_for      |                                | TransferCoinsForResult              |                     |
 | as__get_balance             |                                | GetBalanceResult                    |                     |
 | as__get_balance_for         |                                | GetBalanceForResult                 |                     |
-| as__hash                    |                                | NativeHashResult                    |                     |
+| as__hash                    | abi_hash                       | NativeHashResult                    |                     |
 | as__signature_verify        |                                | VerifyNativeSigResult               |                     |
 | as__address_from_public_key |                                | NativeAddressFromNativePubKeyResult |                     |
 | as__validate_address        | abi_check_native_address       | CheckNativeAddressResult            |                     |
@@ -54,7 +54,7 @@
 | as__local_execution         |                                | LocalExecutionResponse              |                     |
 | as__caller_has_write_access |                                | CallerHasWriteAccessResult          |                     |
 | as__function_exists         | abi_function_exists            | FunctionExistsResult                | working need update |
-| as__hash_sha256             |                                | HashSha256Result                    |                     |
+| as__hash_sha256             | abi_hash_sha256                | HashSha256Result                    |                     |
 |                             | abi_native_address_to_string   | NativeAddressToStringResult         |                     |
 |                             | abi_native_pubkey_to_string    | NativePubKeyToStringResult          |                     |
 |                             | abi_native_sig_to_string       | NativeSigToStringResult             |                     |
@@ -84,7 +84,7 @@
 |                             |                                | CompareNativePubKeyResult           |                     |
 |                             |                                | CompareNativeSigResult              |                     |
 |                             |                                | CompareNativeAmountResult           |                     |
-|                             |                                | Keccak256Result                     |                     |
+|                             | abi_hash_keccak256             | Keccak256Result                     |                     |
 |                             |                                | VerifyEvmSigResult                  |                     |
 |                             |                                | VerifyBlsSingleSigResult            |                     |
 |                             |                                | VerifyBlsMultiSigResult             |                     |
