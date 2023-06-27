@@ -29,8 +29,8 @@
 | as__generate_event          | abi_generate_event             | GenerateEventResult                 | working need update |
 | as__transfer_coins          | abi_transfer_coins             | TransferCoinsResult                 | working need update |
 | as__transfer_coins_for      | abi_transfer_coins             | TransferCoinsResult                 | working need update |
-| as__get_balance             | abi_get_balance                | GetBalanceResult                    |                     |
-| as__get_balance_for         | abi_get_balance                | GetBalanceResult                    |                     |
+| as__get_balance             |                                | GetBalanceResult                    |                     |
+| as__get_balance_for         |                                | GetBalanceResult                    |                     |
 | as__hash                    | abi_hash                       | NativeHashResult                    |                     |
 | as__signature_verify        |                                | VerifyNativeSigResult               |                     |
 | as__address_from_public_key |                                | NativeAddressFromNativePubKeyResult |                     |
