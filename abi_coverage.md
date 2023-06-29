@@ -29,8 +29,8 @@
 | as__generate_event          | abi_generate_event             | GenerateEventResult                 |                     | impl interface for bytes |
 | as__transfer_coins          | abi_transfer_coins             | TransferCoinsResult                 |                     | Done                     |
 | as__transfer_coins_for      | abi_transfer_coins             | TransferCoinsResult                 |                     | Done                     |
-| as__get_balance             |                                | GetBalanceResult                    |                     | TODO (Léo)               |
-| as__get_balance_for         |                                | GetBalanceResult                    |                     | TODO (Léo)               |
+| as__get_balance             | abi_get_balance                | GetBalanceResult                    |                     | Done                     |
+| as__get_balance_for         | abi_get_balance                | GetBalanceResult                    |                     | Done                     |
 | as__hash                    | abi_hash                       | NativeHashResult                    |                     | Done                     |
 | as__signature_verify        |                                | VerifyNativeSigResult               |                     | TODO (Thomas)            |
 | as__address_from_public_key |                                | NativeAddressFromNativePubKeyResult |                     | TODO (Thomas)            |
@@ -41,15 +41,15 @@
 | as__send_message            | (sc-autonome)                  |                                     |                     | TODO (Thomas)            |
 | as__get_current_period      | abi_get_current_slot           | GetCurrentSlotResult                |                     | Done                     |
 | as__get_current_thread      | abi_get_current_slot           | GetCurrentSlotResult                |                     | Done                     |
-| as__set_bytecode            |                                | SetBytecodeResult                   |                     | TODO (Léo)               |
-| as__set_bytecode_for        |                                | SetBytecodeForResult                |                     | TODO (Léo)               |
-| as__get_op_keys             | (prefix as argument)           | GetOpKeysResult                     |                     | TODO (Léo)               |
-| as__get_keys                | (prefix as argument)           | GetKeysResult                       |                     | TODO (Léo)               |
-| as__get_keys_for            | (prefix as argument)           | GetKeysForResult                    |                     | TODO (Léo)               |
-| as__has_op_key              |                                | HasOpKeyResult                      |                     | TODO (Léo)               |
-| as__get_op_data             |                                | GetOpDataResult                     |                     | TODO (Léo)               |
-| as__get_bytecode            |                                | GetBytecodeResult                   |                     | TODO (Léo)               |
-| as__get_bytecode_for        |                                | GetBytecodeForResult                |                     | TODO (Léo)               |
+| as__set_bytecode            | abi_set_bytecode               | SetBytecodeResult                   |                     | Done                     |
+| as__set_bytecode_for        | abi_set_bytecode               | SetBytecodeForResult                |                     | Done                     |
+| as__get_op_keys             | abi_get_op_keys                | GetOpKeysResult                     |                     | Done                     |
+| as__get_keys                | abi_get_keys                   | GetKeysResult                       |                     | Done                     |
+| as__get_keys_for            | abi_get_keys                   | GetKeysForResult                    |                     | Done                     |
+| as__has_op_key              | abi_has_op_key                 | HasOpKeyResult                      |                     | Done                     |
+| as__get_op_data             | abi_get_op_data                | GetOpDataResult                     |                     | Done                     |
+| as__get_bytecode            | abi_get_bytecode               | GetBytecodeResult                   |                     | Done                     |
+| as__get_bytecode_for        | abi_get_bytecode               | GetBytecodeForResult                |                     | Done                     |
 | as__local_call              | abi_local_call                 | LocalCallResponse                   | working need update | Done                     |
 | as__local_execution         |                                | LocalExecutionResponse              |                     | TODO (Thomas)            |
 | as__caller_has_write_access |                                | CallerHasWriteAccessResult          |                     | TODO (Thomas)            |
